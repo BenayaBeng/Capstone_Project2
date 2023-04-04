@@ -19,6 +19,7 @@ Untuk mengetahui strategi menaikkan sales penjualan saya perlu:
 - Menentukan campaign yang tepat
 
 Untuk report data juga akan dilakukan menggunakan tableau.
+https://public.tableau.com/views/CapstoneProject2-CustomerPersonalityAnalysis/CustomerPersonalityAnalysis?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 # 2. Reading, understanding and cleaning data
 
