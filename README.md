@@ -128,6 +128,43 @@ Menguji Spending dan Income menggunakan uji spearman.
 Dari hasil uji spearman, variabel Spending dan Income memiliki hubungan. Dan karena Correlation coefficient nya lebih besar dari 0.7 maka hubungan nya sangat kuat.
 *Maka betul bila saya menggunakan Income atau Spending sebagai acuan untuk perilaku Customer*
 
-### Menentukan produk yang perlu difokuskan
-
+### Menganalisa produk
 Dari 6 produk kita perlu melihat jumlah sales tiap produk lalu di uji statistik
+- Nilai F-statistic sebesar 990.783 menunjukkan bahwa ada perbedaan yang signifikan antara produk.
+- P-value yang kurang dari 0.05 juga menunjukkan adanya perbedaan yang signifikan antara setidaknya dua kelompok dalam sampel.
+Dapat disimpulkan bahwa betul ada perbedaan yang signifikan antara total penjualan produk antara Wines, Fruits, Meat Products, Fish Products, Sweet Products, dan Gold Products.
+Dilihat dari bar plot pun sudah jelas bahwa Wines dan Meat Products adalah 2 produk yang memiliki sales tertinggi.
+Maka kita bisa fokus kepada 2 produk ini
+
+### Menganalisa Purchases
+Memvisualkan 4 purchases lalu di uji statistik
+- Nilai F-statistic sebesar 731.221 menunjukkan bahwa ada perbedaan yang signifikan antara produk.
+- P-value yang kurang dari 0.05 juga menunjukkan adanya perbedaan yang signifikan antara setidaknya dua kelompok dalam sampel.
+Berdasarkan gambar barplot dan pie chart yang telah dihasilkan, terlihat bahwa channel pembelian yang paling banyak dilakukan oleh pelanggan adalah melalui toko fisik (store) dengan persentase sebesar 39%. Kemudian diikuti oleh pembelian melalui website (web purchases) sebesar 27.5%. Sedangkan pembelian melalui penawaran khusus (deals) memiliki persentase sebesar 15.6% dan pembelian melalui katalog (catalog) memiliki persentase sebesar 17.9%. Oleh karena itu, strategi pemasaran yang efektif dapat berfokus pada meningkatkan penjualan melalui Store dan Web purchases.
+
+
+### Menganalisa Campaign
+
+Memvisualkan accepted campaign percentage dan accepted campaign dengan response
+Berdasarkan hasil uji statistik Chi-Square, dapat disimpulkan bahwa ada hubungan yang signifikan antara setiap Campaign dengan Response. Hal ini dapat dilihat dari nilai p-value yang sangat kecil (kurang dari 0.05) pada setiap uji statistik, sehingga dapat menolak hipotesis nol yang menyatakan bahwa tidak ada hubungan antara variabel tersebut.
+Oleh karena itu, dapat dikatakan bahwa Campaign berpotensi mempengaruhi Response, perusahaan dapat mempertimbangkan campaign yang efektif untuk meningkatkan respons pelanggan.
+
+# 4. Solving the problem
+
+Setelah melakukan visualisasi data saya menyimpulkan:
+1. Customer Segment: Fokus pada customer segment yang paling banyak jumlahnya yaitu customer dengan usia 43-53 tahun dan pendidikan PhD, Master, 2n Cycle, dan Graduation karena memiliki pendapatan yang tinggi.
+2. Produk Unggulan: Fokus pada produk Wines dan Meat yang memiliki persentase pembelian yang tinggi.
+3. Cara Jualan: Fokus pada Store Purchases dan Web Purchases yang memiliki jumlah pembelian yang tinggi.
+4. Analisis Campaign: Menemukan bahwa campaign dapat meningkatkan jumlah response, tetapi tidak ada perbedaan yang signifikan antara Campaign 1, 3, 4, dan 5.
+
+Maka *Insight* untuk perusahaan:
+1. Personalization: Menggunakan customer segment untuk membuat pesan dan tawaran yang lebih relevan dan personal untuk segmen pelanggan perusahaan.
+2. Marketing Channel: Pilih channel marketing yang paling efektif untuk mencapai Customer contoh seperti email, media sosial, atau iklan online
+3. Developing product and services: Upaya mengembangkan produk dan layanan kita sesuai dengan kebutuhan dan preferensi Customer Segment
+4. Loyalty Program: Buat program loyalitas sesuai Customer Segment untuk meningkatkan Retency atau repeat order dari Customer
+5. Influencer: Cari influencer yang terkait dengan produk Wine dan Meat, dan gunakan mereka untuk mempromosikan produk kita. Pastikan mereka memiliki audiens yang relevan dengan 2 produk kita
+6. Event or Expo: Ikuti acara expo atau event yang terkait dengan produk kita bukan hanya untuk jualan tapi untuk memperkenalkan produk kita (Brand Awareness) kepada lebih banyak orang atau bisa juga membangun jaringan bisnis
+7. Branding: Fokus branding terhadap 2 produk kita ini untuk membangun Brand Awareness
+8. Offline Promotion: Lakukan promosi offline atau langsung di toko fisik seperti pemasangan brosur atau iklan di tempat umum seperti stasiun atau pusat perbelanjaan untuk meningkatkan visibilitas toko fisik kita
+9. Digital Marketing: Lakukan Marketing online secara teratur kepada pelanggan Anda untuk memberi tahu mereka tentang produk unggulan, Deals khusus, Catalog kita dan informasi terbaru tentang toko Anda.
+10. Campaign: Menginvestigasi Campaign 2 karena angkanya sangat rendah dibandingkan dengan campaign lainnya. Tetap melakukan campaign 1, 3, 4, dan 5 karena persentasenya mirip dan menunjukkan konsistensi.
